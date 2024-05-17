@@ -43,3 +43,5 @@ Ce projet est conçu pour fonctionner sur Kali Linux. Assurez-vous que vous util
 Pour utiliser la suite d'outils de sécurité, exécutez le script principal :
 ```bash
 python Valkiry_Security.py
+
+by JULIEN GASTAL
