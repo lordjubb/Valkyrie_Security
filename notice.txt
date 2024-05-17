@@ -1,0 +1,51 @@
+
+Mode d'Emploi
+
+    Scan des Ports et Detection des CVEs
+        Selectionnez "Options de Scan CVE" dans le menu principal.
+        Choisissez "Scanner les CVEs".
+        Entrez l'IP cible et les ports à scanner (par ex., 80,443,22).
+        Les résultats des scans de ports et des CVEs seront affichés. Vous pouvez choisir d'exploiter les CVEs trouvées.
+
+    Scan des Réseaux Locaux
+        Sélectionnez "Options de Pentest" dans le menu principal.
+        Choisissez "Scan ARP".
+        Entrez la plage réseau (par ex., 192.168.1.0/24).
+        Les appareils détectés sur le réseau seront affichés.
+
+    Exploitation de Vulnérabilités avec Metasploit
+        Sélectionnez "Options de Scan CVE" dans le menu principal.
+        Choisissez "Scanner les CVEs".
+        Si des CVEs sont trouvées, choisissez d'exploiter les CVEs.
+        Le script utilisera Metasploit pour tenter d'exploiter les CVEs trouvées.
+
+    Vérification de la Force des Mots de Passe
+        Sélectionnez "Vérification de la Force du Mot de Passe" dans le menu principal.
+        Choisissez "Vérifier la force du mot de passe".
+        Entrez le mot de passe à vérifier. Le résultat de l'analyse de force sera affiché.
+
+    Test des Connexions SSH avec Hydra
+        Sélectionnez "Options de Test SSH" dans le menu principal.
+        Choisissez "Tester la connexion SSH".
+        Entrez l'adresse du serveur SSH et le nom d'utilisateur SSH.
+        Fournissez le chemin vers le fichier de la liste des mots de passe. Hydra tentera de trouver des identifiants valides.
+
+    Test des Connexions FTP Anonymes
+        Sélectionnez "Options de Pentest" dans le menu principal.
+        Choisissez "Tester la connexion FTP anonyme".
+        Entrez l'adresse du serveur FTP. Le script tentera de se connecter anonymement.
+
+Dépendances
+
+    Scapy - Licence GPLv2
+    python-nmap - Licence MIT
+    Requests - Licence Apache 2.0
+    ReportLab - Licence BSD
+    console-menu - Licence MIT
+    prompt-toolkit - Licence BSD
+    colorama - Licence BSD
+    tabulate - Licence MIT
+
+Contribuer
+
+Les contributions sont les bienvenues ! Veuillez ouvrir une issue ou soumettre une pull request pour apporter des améliorations ou des correctifs.
