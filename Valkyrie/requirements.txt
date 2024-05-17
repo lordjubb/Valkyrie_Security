@@ -1,0 +1,8 @@
+scapy==2.4.5
+nmap==0.0.1
+requests==2.25.1
+reportlab==3.5.68
+console-menu==0.7.0
+prompt-toolkit==3.0.16
+colorama==0.4.4
+tabulate==0.8.9
