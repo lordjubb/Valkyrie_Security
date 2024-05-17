@@ -18,8 +18,8 @@ Ce projet est conçu pour fonctionner sur Kali Linux. Assurez-vous que vous util
 
 1. Clonez ce dépôt GitHub :
     ```bash
-    git clone https://github.com/votre-utilisateur/votre-repo.git
-    cd votre-repo
+    git clone https://github.com/lordjubb/Valkyrie_Security
+    cd Valkyrie_Security
     ```
 
 2. Installez les dépendances Python :
